@@ -9,7 +9,7 @@ from copy import deepcopy
 from clonalg import clonalg,cost
 from simulatedAnnealing import simulatedAnnealing
 
-tsp = tsplib95.load('../TSP/att532.tsp')
+tsp = tsplib95.load('TSP/att532.tsp')
 
 def res_rota(tsp, sol):
     coord = tsp.node_coords

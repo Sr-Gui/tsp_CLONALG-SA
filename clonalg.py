@@ -10,7 +10,7 @@ SEED = 42
 random.seed(SEED)
 np.random.seed(SEED)
 
-#tsp = tsplib95.load('../TSP/att48.tsp')
+#tsp = tsplib95.load('TSP/att48.tsp')
 
 def distance(tsp):
   node=list(tsp.get_nodes())

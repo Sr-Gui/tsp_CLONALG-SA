@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import time
 
 #TSP
-#tsp=tsplib95.load('../TSP/att48.tsp')
+#tsp=tsplib95.load('TSP/att48.tsp')
 
 
 def distance(tsp):
